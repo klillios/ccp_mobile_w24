@@ -17,8 +17,126 @@ body {
 }
 
 h1 {
-    font-size: 33px;
+    font-size: 35px;
     text-align: center;
     padding: 5px;
     font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img {
+    max-width: fit-content;
+    display: block;
+    margin: 0 auto;
+    border: 3px black;
+}
+
+video {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    border: 3px black;
+}
+
+div {
+    min-height: 40px;
+    padding: 20px 20px 20px 20px;
+}
+
+.pet-grid {
+    margin: 0;
+    display: grid;
+    padding: 10px 10px 10px 10px;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    border: 3px solid black;
+}
+
+.pet-header1 {
+    grid-area: 1 / 1 / span 1 / span 2;
+    background-color: #f6e7d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+    border: 3px solid black;
+}
+
+.pet-header2 {
+    grid-area: 3 / 1 / span 1 / span 2;
+    background-color: #f6e7d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+    border: 3px solid black;
+}
+
+.pet-bio {
+    grid-area: 4 / 1 / span 1 / span 2;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 5px;
+}
+
+.pet-headshot img {
+    grid-area: 2 / 1 / span 1 / span 2;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.pet-likes {
+    grid-area: 2 / 2 / span 1 / span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    vertical-align: center;
+    text-align: center;
+    margin: 0;
+    padding: 4px;
+}
+
+.pet-pic img {
+    max-width: 100%;
+    max-height: auto;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.pet-pic video {
+    max-width: 100%;
+    max-height: auto;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    object-fit: cover;
 }
