@@ -2,3 +2,23 @@
     display: grid;
     grid-template-columns: 300px 300px;
 }
+
+html {
+    font-size: 100%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    padding: 0;
+}
+
+h1 {
+    font-size: 33px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
