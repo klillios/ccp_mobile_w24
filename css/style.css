@@ -53,6 +53,7 @@ nav ul {
 .current {
     color: rgb(51, 1, 17);
     font-weight: bold;
+    font-size: larger;
 }
 
 body {
@@ -88,6 +89,7 @@ p {
     font-size: 14px;
     padding-top: 10px;
     padding-bottom: 10px;
+    align-items: center;
 }
 
 img {
@@ -119,7 +121,7 @@ div {
     justify-content: center;
     border: 2px solid black;
     border-radius: 6px;
-    background-color: rgb(255, 238, 226);
+    background-color: #fff1e5;
 }
 
 .header1 {
